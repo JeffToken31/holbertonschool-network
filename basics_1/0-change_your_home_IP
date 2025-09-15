@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 # New mapping ip on localhost an facebook. !Don't run it !
-echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts > /dev/null
-echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts > /dev/null
+{
+echo "127.0.0.2 localhost"
+echo "8.8.8.8 facebook.com"
+} | sudo tee -a /etc/hosts > /dev/null
