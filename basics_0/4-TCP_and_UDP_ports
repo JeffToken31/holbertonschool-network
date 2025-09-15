@@ -1,0 +1,3 @@
+#!/usr/bin/ env bash
+# Use netstat with this following option -t: display TCP -u: UDP -n: IP/port -l: Socket in listening -p: PID/name
+netstat -tunlp
