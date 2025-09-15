@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Check if arg is called, then using ping with ip as argv1 to ping 5 times
-if [ -z "$1" ]
+if [ $# -ne 1 ];
   then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
     exit 1
