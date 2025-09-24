@@ -2,6 +2,8 @@
 
 ## Check out my detailed blog post explaining what happens when you type `<https://www.google.com>` in your browser: [Read the full article on Medium](https://medium.com/@jeffrey-31/what-happens-when-you-type-https-www-google-com-and-hit-enter-d19588143dc4)
 
+![Sequence flow of typing Google](https://github.com/JeffToken31/holbertonschool-network/blob/main/what_happens_when_your_type_google_com_in_your_browser_and_press_enter/googleFlow.png)
+
 ## Blog post content
 
 Most of us just type, press Enter, and boom — Google is there in a blink. But under the hood, there's a lot of moving parts working in milliseconds. Let's break it down step by step.
